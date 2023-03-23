@@ -29,6 +29,7 @@ sudo apt-get install -y git \
     pcl-tools \
     htop \
 
+
 # CMake
 sudo apt-get install cmake
 # google-glog + gflags
