@@ -1,5 +1,6 @@
 # ubuntu alibaba source, please update the /etc/apt/source.list
 
+## ubuntu20.04
 # deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 # deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 # deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
@@ -10,6 +11,20 @@
 # deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 # deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 # deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+
+## ubuntu22.04
+
+# deb https://mirrors.ustc.edu.cn/ubuntu/ jammy main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy main restricted universe multiverse
+# deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+# deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+# deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+# deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+
 
 sudo apt-get install -y git \
     vlc \
