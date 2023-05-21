@@ -30,7 +30,8 @@ sudo apt-get install -y git \
     vlc \
     terminator \
     kazam \
-    build-essential virtualbox \
+    build-essential \
+    virtualbox \
     cmake-curses-gui \
     net-tools \
     curl \
@@ -43,6 +44,8 @@ sudo apt-get install -y git \
     openssh-server \
     pcl-tools \
     htop \
+    mlocate \
+    tmux \
 
 
 # CMake
